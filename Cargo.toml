@@ -1,0 +1,10 @@
+[package]
+name = "phystr"
+version = "0.1.0"
+edition = "2021"
+default-run = "phystr"
+
+[dependencies]
+polysplit = {path = "../polysplit"}
+paraserv = {path = "../paraserv"}
+rand = {version = "0.8", features = ["small_rng"]}
